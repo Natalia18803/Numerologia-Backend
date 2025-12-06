@@ -1,9 +1,11 @@
 {
-  "name": "numerologia",
+  "name": "mysql-miguel",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,10 @@
     "axios": "^1.13.2",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "express-validator": "^7.3.1",
     "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
